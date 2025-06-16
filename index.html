@@ -43,23 +43,56 @@
      
      <hr>
      <h2>form tag </h2>
-     <form action=""method="">
+     <form action=""method="" enctype="multipart/formdata">
       
-         <label>name:</label><br>
-          <input type="text " name="name"><br> 
-          <label>password:</label><br>
-     <input type="password" name="password"><br>
-       EMAIL: <input type="email " name="Email"><br>
-       
-       DATE-OF-BIRTH   <input type="date" name="dob"><br>
-         <input type="file" name="resume"><br>
-        <input type="submit" value="SUMBIT"><br>
-        <input type="radio" name=""><br>
-        
-      
-      
-        
-        
-     </form>
+      <br>
+        <p><label> First Name</label><input type =" text" name="fname" value="type your name"></p>
+        <p><label> last Name</label><input type =" text" name="lname" required></p>
+         dob<input type ="date" name="dob" >
+        color picker <input type="color" name="color"><br>
+        upload file <input type="file" name="file"><br>
+        user id <input type="email" name="uid" placeholder="enter your email"><br>
+        password <input type="password" name="pwd"><br>
+        gender <input type="radio" name="gender">male
+        <input type="radio" name="gender">female
+        <br>
+        address <textarea cols="12" rows="6" name ="addr"></textarea><br>
+        cit <select name="">
+         <option>sselect one</option>
+         <option>sathymangalam</option>
+         <option> kovai</option>
+         <option> chennai</option>
+        </select> <br>
+        <input type="checkbox" name="declaration"> i do hereby declare that all info <br>
+        <input type="text" pattern="[A-Za-z]{3,}" title="at leas 3 letter"><br>
+        <input type="submit" value="send data">
+        <input type="reset" value="reset">
+<hr>
+<br>
+</form>
+<h2>Sematic elements </h2>  
+<header>
+   <nav>
+   <a href="">Home</a><br>
+   <a href="">gallery</a><br>
+   <a href="">about</a><br>
+   </nav>
+</header>
+<aside>
+   side bar item1<br>
+   side bar item1
+</aside>
+
+<main>
+   <table>
+      <tr><th>sno</th><th>name</th><th>age</th></tr>
+      <tr><td>1</td><td>sabarish</td><td>20</td></tr>
+      <tr><td>2</td><td>gumbala</td><td>19</td></tr>
+   </table>
+</main>
+<hr>
+<footer>
+   copyright bannari institute 
+</footer>
 </body>
 </html>
